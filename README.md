@@ -1,6 +1,6 @@
 # Jaehyeon (Max) Park (MCPE_PC)
 
-> 👋 Hello, world!
+> :wave: Hello, world!
 > #YetAnotherOpenSourcerer
 
 ![Today coded](https://img.shields.io/endpoint?url=https%3A%2F%2Fwakapi.dev%2Fapi%2Fcompat%2Fshields%2Fv1%2FMCPE_PC%2Finterval%3Atoday&style=for-the-badge&logo=wakatime&label=today%20coded)
