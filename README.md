@@ -4,6 +4,8 @@
 
 > Available in [Markdown version](https://github.com/MCPE-PC/MCPE-PC/blob/main/README.md), [HTML version](https://github-profile-artifact.mcpepc.com/README.html), and [PDF version](https://github-profile-artifact.mcpepc.com/README.pdf)
 
+:star: Download my open-source software portfolio (Korean) [here](https://github-profile-artifact.mcpepc.com/PORTFOLIO-OSS-KO.pdf)!
+
 ![Today coded](https://img.shields.io/endpoint?url=https%3A%2F%2Fwakapi.dev%2Fapi%2Fcompat%2Fshields%2Fv1%2FMCPE_PC%2Finterval%3Atoday&style=for-the-badge&logo=wakatime&label=today%20coded)
 [![Wakatime](https://wakatime.com/badge/user/953e1ba9-efe7-47bb-81ac-236d133661f6.svg?style=for-the-badge)](https://wakatime.com/@MCPE_PC)
 

@@ -19,7 +19,7 @@ header-includes: |
   \fancyhead[R]{오픈 소스 소프트웨어 Portfolio}
   \fancyfoot[C]{© 2024 박재현 (CC BY 4.0)}
   \fancyfoot[LE,RO]{\thepage}
-  \fancyfoot[LO,RE]{v1.1.1 (2024-07-16)}
+  \fancyfoot[LO,RE]{v1.1.2 (2024-07-16)}
 include-before: |
   \pagebreak
 ---
@@ -31,9 +31,10 @@ include-before: |
 - 본 문서는 Contributor로 인정되거나 Issue(Conversation 포함)를 제출한 오픈 소스 활동(기여)만 다룹니다. 그 밖의 내용을 다루는 자료의 목록은 [더보기](#더보기) 절에서 보실 수 있습니다.
   - GitHub 또는 GitLab의 공개 저장소여야 합니다.
   - 중요도와 관계없이, 첫 기여가 오래된 것부터 빠짐없이 기재합니다. 한 번만 기재합니다.
-  - 개인 GitHub 계정(@MCPE-PC)의 저장소가 아니라면 기여의 종류를 표시합니다.
+  - 직접 소유한 개인 저장소가 아니라면 기여의 종류를 표시합니다.
   - 예외적으로, 오픈 소스 커뮤니티에 회원 가입하는 것을 다룰 수 있습니다.
 - 본 문서는 [Pandoc’s Markdown](https://pandoc.org/chunkedhtml-demo/8-pandocs-markdown.html)으로 작성되며 [markdownlint](https://github.com/DavidAnson/markdownlint)를 준수합니다. 정확한 결과를 확인하려면 [Pandoc](https://pandoc.org/)으로 [LaTeX](https://www.latex-project.org/)를 사용하여 빌드해야 합니다. 최신 버전의 소스 코드는 [이 GitHub 링크](https://github.com/MCPE-PC/MCPE-PC/blob/main/PORTFOLIO-OSS-KO.md)에서 확인할 수 있습니다.
+- 본 문서의 공개 최신 버전은 [이 링크](https://github-profile-artifact.mcpepc.com/PORTFOLIO-OSS-KO.pdf)에서 다운로드할 수 있습니다.
 - 본 문서는 [CC BY 4.0](https://github.com/MCPE-PC/MCPE-PC/blob/main/LICENSE)으로 이용 허락됩니다.
 - 본 문서는 [Semantic Versioning](https://semver.org/)을 따릅니다.
 
@@ -273,7 +274,7 @@ include-before: |
 ### [MCPE-PC/MCPE-PC](https://github.com/MCPE-PC/MCPE-PC)
 
 - [프로필 README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) 규칙을 충족하기 위해 12월 28일에 저장소를 생성하였습니다.
-- 프로필 README, 본 문서, 그리고 브랜드 자산 등을 오픈 소스로 제공합니다.
+- 프로필 README와 본 문서 등 오픈 소스 문서를 제공합니다.
 - 빌드 결과물은 [GitHub Pages](https://pages.github.com/)로 [github-profile-artifact.mcpepc.com](https://github-profile-artifact.mcpepc.com/)에 호스팅됩니다.
 
 \pagebreak
@@ -387,7 +388,7 @@ include-before: |
 
 ### [hackclub/blot](https://github.com/hackclub/blot): Member
 
-![A teacup snapshot](assets/extra/blot-snapshot.png)
+![A teacup snapshot](assets/blot-snapshot.png)
 
 - [Arcade](https://hack.af/arcade) 활동으로 예술 생성 프로그램을 작성하고 [Blot](https://blot.hackclub.com/)에 기여하기 위해 6월 18일에 [#548 Ateacup-MCPEPC](https://github.com/hackclub/blot/pull/548)를 제출하여 Merge되었습니다.
 - 실행할 때마다 다른 랜덤 컵을 그립니다.
@@ -468,4 +469,9 @@ include-before: |
 
 - 링크 색 제거 및 서식 개선
 - 빌드 및 다운로드 방법 변경
+- 내용 업데이트
+
+### 1.1.2 (2024-07-16)
+
+- 이미지 파일 경로 변경
 - 내용 업데이트
