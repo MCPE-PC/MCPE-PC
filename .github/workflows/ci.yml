@@ -39,8 +39,6 @@ jobs:
         run: weasyprint _site/README.html _site/README.pdf
       - name: Build PORTFOLIO-OSS-KO.md to PDF
         run: pandoc -s --pdf-engine tectonic -o _site/PORTFOLIO-OSS-KO.pdf PORTFOLIO-OSS-KO.md
-      - name: Inject index.html
-        run: cp assets/index.html _site/index.html
       - name: Inject LICENSE
         run: cp LICENSE _site/LICENSE
       - name: Upload artifact
