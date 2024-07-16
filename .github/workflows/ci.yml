@@ -1,13 +1,52 @@
-name: Test
+name: Test and build
 
 on: [push, pull_request]
 
 jobs:
   test:
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v2
       - name: Lint Markdown
         uses: DavidAnson/markdownlint-cli2-action@v16
         with:
-          globs: '**/*.md'
+          globs: "**/*.md"
+      - name: Install fonts
+        run: sudo apt update && sudo apt install -y fonts-nanum fonts-nanum-coding
+      - name: Setup Pandoc
+        uses: r-lib/actions/setup-pandoc@v2
+      - name: Setup Tectonic
+        uses: wtfjoke/setup-tectonic@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - name: Install WeasyPrint
+        run: pip install weasyprint
+      - name: Make build directory
+        run: mkdir build
+      - name: Inject assets
+        run: cp -r assets build
+      - name: Build README.md to HTML
+        run: pandoc -s -f gfm -o build/README.html --css assets/extra/pandoc.css README.md
+      - name: Build README.html to PDF
+        run: weasyprint build/README.html build/README.pdf
+      - name: Build PORTFOLIO-OSS-KO.md to PDF
+        run: pandoc -s --pdf-engine tectonic -o build/PORTFOLIO-OSS-KO.pdf PORTFOLIO-OSS-KO.md
+      - name: Inject index.html
+        run: cp assets/extra/index.html build/index.html
+      - uses: actions/upload-artifact@v4
+        with:
+          name: github-pages
+          path: build
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -3,21 +3,23 @@ title: 오픈 소스 소프트웨어 Portfolio
 author: 박재현
 subtitle: "`#YetAnotherOpenSourcerer`"
 lang: ko-KR
-linkcolor: blue
+standalone: true
+pdf-engine: tectonic
+mainfont: NanumGothic
+sansfont: NanumGothic
+monofont: NanumGothicCoding
+mathfont: NanumGothic
 toc: true
 toc-title: 목차
 header-includes: |
-  \usepackage{kotex}
   \usepackage{href-ul}
   \usepackage{fancyhdr}
-  \setmainfont{NanumGothic}
-  \setmonofont{D2Coding}
   \pagestyle{fancy}
   \fancyhead[L]{\rightmark}
   \fancyhead[R]{오픈 소스 소프트웨어 Portfolio}
   \fancyfoot[C]{© 2024 박재현 (CC BY 4.0)}
   \fancyfoot[LE,RO]{\thepage}
-  \fancyfoot[LO,RE]{v1.1.0 (2024-07-12)}
+  \fancyfoot[LO,RE]{v1.1.1 (2024-07-16)}
 include-before: |
   \pagebreak
 ---
@@ -272,6 +274,7 @@ include-before: |
 
 - [프로필 README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) 규칙을 충족하기 위해 12월 28일에 저장소를 생성하였습니다.
 - 프로필 README, 본 문서, 그리고 브랜드 자산 등을 오픈 소스로 제공합니다.
+- 빌드 결과물은 [GitHub Pages](https://pages.github.com/)로 [github-profile-artifact.mcpepc.com](https://github-profile-artifact.mcpepc.com/)에 호스팅됩니다.
 
 \pagebreak
 
@@ -353,7 +356,7 @@ include-before: |
 
 ### [MCPE-PC/2024-dimigo-1person-1project](https://github.com/MCPE-PC/2024-dimigo-1person-1project)
 
-- `공업 일반` 과목 수행평가 `1人1Project` 자료를 오픈 소스로 기록하기 위해 3월 22일에 저장소를 생성하였습니다.
+- `공업 일반` 과목 수행평가(1인1Project) 자료를 오픈 소스로 기록하기 위해 3월 22일에 저장소를 생성하였습니다.
 
 ### [MCPE-PC/2024-dimigo-class-big-data-analysis](https://github.com/MCPE-PC/2024-dimigo-class-big-data-analysis)
 
@@ -445,7 +448,9 @@ include-before: |
 - 공적 증빙 가능한 소프트웨어 분야 이력은 &lt;소프트웨어기술자 경력증명서&gt;^[해당 파일은 사용 목적을 기재하여 요청해주시면 보내드리겠습니다.]와 &lt;소프트웨어기술자 경력 설명서&gt;^[해당 파일은 사용 목적을 기재하여 요청해주시면 보내드리겠습니다.]를 확인해주세요.
 - 소프트웨어를 포함한 전체 분야 이력과 개인 프로젝트, 봉사활동 등에 관한 전반적 사항은 LinkedIn([`in/jaehyeon`](https://www.linkedin.com/in/jaehyeon/))을 확인해주세요. 다만, 전체 공개되지 않는 소프트웨어 분야 기술경력은 위 &lt;소프트웨어기술자 경력증명서&gt;에 있습니다.
 - 최신 일상생활은 Instagram([`@mcpe_pc_`](https://www.instagram.com/mcpe_pc_/))을 확인해주세요.
-- 공개된 신상과 실시간 디스코드 상태, 추가적인 안내 사항은 [GitHub 프로필 README](https://github.com/MCPE-PC/MCPE-PC/blob/main/README.md) 내용을 확인해주세요.
+- 공개된 신상과 실시간 디스코드 상태, 추가적인 안내 사항은 [GitHub 프로필 README](https://github.com/MCPE-PC/MCPE-PC/blob/main/README.md) 내용을 확인해주세요. (HTML과 PDF로도 제공된답니다!)
+
+\pagebreak
 
 ## 버전 기록
 
@@ -458,3 +463,9 @@ include-before: |
 - 누락된 내용 추가 및 업데이트
 - `pdf-engine` 변경
 - 기본 글꼴 변경
+
+### 1.1.1 (2024-07-16)
+
+- 링크 색 제거 및 서식 개선
+- 빌드 및 다운로드 방법 변경
+- 내용 업데이트

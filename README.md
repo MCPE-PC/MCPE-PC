@@ -1,7 +1,8 @@
 # Jaehyeon (Max) Park (MCPE_PC)
 
-> :wave: Hello, world!
-> #YetAnotherOpenSourcerer
+![:wave: Hello, world! #YetAnotherOpenSourcerer](assets/banner.png)
+
+> Available in [Markdown version](https://github.com/MCPE-PC/MCPE-PC/blob/main/README.md), [HTML version](https://github-profile-artifact.mcpepc.com/README.html), and [PDF version](https://github-profile-artifact.mcpepc.com/README.pdf)
 
 ![Today coded](https://img.shields.io/endpoint?url=https%3A%2F%2Fwakapi.dev%2Fapi%2Fcompat%2Fshields%2Fv1%2FMCPE_PC%2Finterval%3Atoday&style=for-the-badge&logo=wakatime&label=today%20coded)
 [![Wakatime](https://wakatime.com/badge/user/953e1ba9-efe7-47bb-81ac-236d133661f6.svg?style=for-the-badge)](https://wakatime.com/@MCPE_PC)
@@ -11,9 +12,9 @@
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=MCPE-PC&hide_title=true&show_icons=true&include_all_commits=true&disable_animations=true&theme=transparent)
 
-![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=MCPE_PC&layout=compact&theme=transparent)
+![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=MCPE_PC&layout=compact&disable_animations=true&theme=transparent)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MCPE-PC&theme=transparent&langs_count=20&disable_animations=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MCPE-PC&langs_count=20&disable_animations=true&theme=transparent)
 
 ## Contact me
 
