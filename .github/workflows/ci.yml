@@ -31,20 +31,18 @@ jobs:
           python-version: 3.x
       - name: Install WeasyPrint
         run: pip install weasyprint
-      - name: Make build directory
-        run: mkdir build
       - name: Inject assets
-        run: cp -r assets build
+        run: cp -r assets _site
       - name: Build README.md to HTML
-        run: pandoc -s -f gfm -o build/README.html --css assets/pandoc.css README.md
+        run: pandoc -s -f gfm -o _site/README.html --css assets/pandoc.css README.md
       - name: Build README.html to PDF
-        run: weasyprint build/README.html build/README.pdf
+        run: weasyprint _site/README.html _site/README.pdf
       - name: Build PORTFOLIO-OSS-KO.md to PDF
-        run: pandoc -s --pdf-engine tectonic -o build/PORTFOLIO-OSS-KO.pdf PORTFOLIO-OSS-KO.md
+        run: pandoc -s --pdf-engine tectonic -o _site/PORTFOLIO-OSS-KO.pdf PORTFOLIO-OSS-KO.md
       - name: Inject index.html
-        run: cp assets/index.html build/index.html
+        run: cp assets/index.html _site/index.html
       - name: Inject LICENSE
-        run: cp LICENSE build/LICENSE
+        run: cp LICENSE _site/LICENSE
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
       - name: Deploy to GitHub Pages
