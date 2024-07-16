@@ -2,6 +2,8 @@
 
 ![:wave: Hello, world! #YetAnotherOpenSourcerer](assets/banner.png)
 
+[![GitHub branch check runs](https://img.shields.io/github/check-runs/MCPE-PC/MCPE-PC/main?style=for-the-badge)](https://github-profile-artifact.mcpepc.com/)
+
 > Available in [Markdown version](https://github.com/MCPE-PC/MCPE-PC/blob/main/README.md), [HTML version](https://github-profile-artifact.mcpepc.com/README.html), and [PDF version](https://github-profile-artifact.mcpepc.com/README.pdf)
 
 :star: Download my open-source software portfolio (Korean) [here](https://github-profile-artifact.mcpepc.com/PORTFOLIO-OSS-KO.pdf)!

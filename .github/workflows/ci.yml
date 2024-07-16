@@ -34,7 +34,7 @@ jobs:
       - name: Inject assets
         run: cp -r assets _site
       - name: Build README.md to HTML
-        run: pandoc -s -f gfm -o _site/README.html --css assets/pandoc.css README.md
+        run: pandoc -s -f gfm -o _site/README.html --css assets/pandoc.css --include-before-body assets/body-before.txt --include-after-body assets/body-after.txt README.md
       - name: Build README.html to PDF
         run: weasyprint _site/README.html _site/README.pdf
       - name: Build PORTFOLIO-OSS-KO.md to PDF

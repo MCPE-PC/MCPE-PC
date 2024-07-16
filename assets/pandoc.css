@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/github-markdown-css@5");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Gothic:wght@400;700;800&family=family=Noto+Color+Emoji&display=swap");
 
 html {
-	font-family: 'Nanum Gothic', sans-serif;
-	font-weight: 400;
-	font-style: normal;
+  font-family: "Nanum Gothic", "Noto Color Emoji", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 pre,
 code {
-	font-family: 'Nanum Gothic Coding', monospace;
+  font-family: "Nanum Gothic Coding", "Noto Color Emoji", monospace;
 }
