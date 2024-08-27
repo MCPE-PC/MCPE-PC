@@ -20,3 +20,14 @@ div.markdown-body {
     padding: 15px;
   }
 }
+
+@media print {
+  code {
+    overflow-wrap: break-word;
+  }
+
+  img[alt="GitHub branch check runs"],
+  img[alt="Hits"] {
+    display: none;
+  }
+}

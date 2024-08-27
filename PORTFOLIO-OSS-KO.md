@@ -19,7 +19,7 @@ header-includes: |
   \fancyhead[R]{오픈 소스 소프트웨어 Portfolio}
   \fancyfoot[C]{© 2024 박재현 (CC BY 4.0)}
   \fancyfoot[LE,RO]{\thepage}
-  \fancyfoot[LO,RE]{v1.1.2 (2024-07-16)}
+  \fancyfoot[LO,RE]{v1.2.0 (2024-08-28)}
 include-before: |
   \pagebreak
 ---
@@ -30,11 +30,14 @@ include-before: |
 
 - 본 문서는 Contributor로 인정되거나 Issue(Conversation 포함)를 제출한 오픈 소스 활동(기여)만 다룹니다. 그 밖의 내용을 다루는 자료의 목록은 [더보기](#더보기) 절에서 보실 수 있습니다.
   - GitHub 또는 GitLab의 공개 저장소여야 합니다.
-  - 중요도와 관계없이, 첫 기여가 오래된 것부터 빠짐없이 기재합니다. 한 번만 기재합니다.
+  - 중요도와 관계없이, 첫 기여가 오래된 것부터 빠짐없이 기재합니다.
+    - 나중에 더 기여했더라도 같은 저장소는 한 번만 기재합니다.
+    - Pull Request의 비교 저장소로 사용하기 위한 Fork로서 Pull Request가 Close되면 삭제할 저장소는 기재하지 않아도 됩니다.
   - 직접 소유한 개인 저장소가 아니라면 기여의 종류를 표시합니다.
-  - 예외적으로, 오픈 소스 커뮤니티에 회원 가입하는 것을 다룰 수 있습니다.
-- 본 문서는 [Pandoc’s Markdown](https://pandoc.org/chunkedhtml-demo/8-pandocs-markdown.html)으로 작성되며 [markdownlint](https://github.com/DavidAnson/markdownlint)를 준수합니다. 정확한 결과를 확인하려면 [Pandoc](https://pandoc.org/)으로 [LaTeX](https://www.latex-project.org/)를 사용하여 빌드해야 합니다. 최신 버전의 소스 코드는 [이 GitHub 링크](https://github.com/MCPE-PC/MCPE-PC/blob/main/PORTFOLIO-OSS-KO.md)에서 확인할 수 있습니다.
+  - 예외적으로, 오픈 소스 커뮤니티에 회원 가입하는 것과 같은 milestone을 다룰 수 있습니다.
+- 본 문서는 [Pandoc’s Markdown](https://pandoc.org/chunkedhtml-demo/8-pandocs-markdown.html)으로 작성되며 [markdownlint](https://github.com/DavidAnson/markdownlint)를 준수합니다. 정확한 결과를 확인하려면 [Pandoc](https://pandoc.org/)으로 [LaTeX](https://www.latex-project.org/)를 사용하여 빌드해야 합니다. 본 문서의 최신 버전 소스 코드는 [이 GitHub 링크](https://github.com/MCPE-PC/MCPE-PC/blob/main/PORTFOLIO-OSS-KO.md)에서 확인할 수 있습니다.
 - 본 문서의 공개 최신 버전은 [이 링크](https://github-profile-artifact.mcpepc.com/PORTFOLIO-OSS-KO.pdf)에서 다운로드할 수 있습니다.
+- 시간대는 달리 표기하지 않은 한 한국 표준시(Asia/Seoul, UTC+9)입니다.
 - 본 문서는 [CC BY 4.0](https://github.com/MCPE-PC/MCPE-PC/blob/main/LICENSE)으로 이용 허락됩니다.
 - 본 문서는 [Semantic Versioning](https://semver.org/)을 따릅니다.
 
@@ -80,7 +83,7 @@ include-before: |
 ### [DarkTornado/darkCheater](https://github.com/DarkTornado/darkCheater): Issue
 
 - 12월 10일에 [`#2 각종 오류가 많습니다 (...)`](https://github.com/DarkTornado/darkCheater/issues/2)를 제출하였습니다.
-- 별도의 연락을 통해 종결하였습니다.
+- 별도 연락을 통해 종결하였습니다.
 
 \pagebreak
 
@@ -157,6 +160,7 @@ include-before: |
 - [Soundpad](https://www.leppsoft.com/soundpad/en/)의 [Remote Control](https://www.leppsoft.com/soundpad/help/manual/tutorial/rc/)을 제공하는 Node.js wrapper입니다.
 - Windows에서 [명명된 파이프](https://learn.microsoft.com/ko-kr/windows/win32/ipc/named-pipes)를 사용합니다.
 - 지금은 서비스가 종료된 Greenkeeper와 issue.sh를 이용하였습니다.
+- 더이상 Maintain하지 않습니다. [Seblor/soundpad.js](https://github.com/Seblor/soundpad.js)를 대신 사용하는 것이 낫습니다.
 
 ### [js-org/js.org](https://github.com/js-org/js.org): Pull Request
 
@@ -273,6 +277,8 @@ include-before: |
 
 ### [MCPE-PC/MCPE-PC](https://github.com/MCPE-PC/MCPE-PC)
 
+![:wave: Hello, world! #YetAnotherOpenSourcerer](assets/banner.png)
+
 - [프로필 README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) 규칙을 충족하기 위해 12월 28일에 저장소를 생성하였습니다.
 - 프로필 README와 본 문서 등 오픈 소스 문서를 제공합니다.
 - 빌드 결과물은 [GitHub Pages](https://pages.github.com/)로 [github-profile-artifact.mcpepc.com](https://github-profile-artifact.mcpepc.com/)에 호스팅됩니다.
@@ -296,9 +302,9 @@ include-before: |
 
 - 5월 25일에 [`#395 Update ko-KR strings`](https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/pull/395)를 제출하여 Merge되었습니다.
 
-### [WIP] [MCPE-PC/donate.mcpepc.me](https://github.com/MCPE-PC/donate.mcpepc.me)
+### [WIP] [MCPE-PC/sponsor.mcpepc.me](https://github.com/MCPE-PC/sponsor.mcpepc.me)
 
-- 커뮤니티로부터 오픈 소스 활동에 대한 금융 지원을 받을 홈페이지를 제작하기 위해 6월 10일에 저장소를 생성하였습니다.
+- 커뮤니티로부터 오픈 소스 활동에 대한 재정 지원을 받을 홈페이지를 제작하기 위해 6월 10일에 저장소를 생성하였습니다.
 - 규제 등으로 실제 제작하지 않았지만 이제 해당 문제는 해결되었기 때문에 제작할 예정입니다.
 
 ### [redis/node-redis](https://github.com/redis/node-redis): Issue
@@ -328,27 +334,17 @@ include-before: |
 
 ## 2022년
 
-2022년에는 새로운 오픈 소스 활동을 하지 않았거나 활동한 저장소가 모두 삭제되었습니다.
+2022년에는 새로운 오픈 소스 활동을 하지 않았거나 활동한 저장소가 모두 오픈 소스 커뮤니티에서 삭제되었습니다.
 
 \pagebreak
 
 ## 2023년
 
-2023년에는 새로운 오픈 소스 활동을 하지 않았거나 활동한 저장소가 모두 삭제되었습니다.
+2023년에는 새로운 오픈 소스 활동을 하지 않았거나 활동한 저장소가 모두 오픈 소스 커뮤니티에서 삭제되었습니다.
 
 \pagebreak
 
 ## 2024년
-
-### MakerWorld 회원 가입
-
-- 3월 3일에 [MakerWorld](https://makerworld.com/)에 처음 회원 가입하였습니다.
-- [@mcpe_pc](https://makerworld.com/@mcpe_pc)
-
-### Printables 회원 가입
-
-- 3월 6일에 [Printables](https://www.printables.com/)에 처음 회원 가입하였습니다.
-- [@MCPE_PC_1864895](https://www.printables.com/@MCPE_PC_1864895)
 
 ### [MCPE-PC/skills-hello-github-actions](https://github.com/MCPE-PC/skills-hello-github-actions), [MCPE-PC/skills-test-with-actions](https://github.com/MCPE-PC/skills-test-with-actions), [MCPE-PC/skills-publish-packages](https://github.com/MCPE-PC/skills-publish-packages), [MCPE-PC/skills-write-javascript-actions](https://github.com/MCPE-PC/skills-write-javascript-actions), [MCPE-PC/skills-deploy-to-azure](https://github.com/MCPE-PC/skills-deploy-to-azure)
 
@@ -366,13 +362,19 @@ include-before: |
 ### [MCPE-PC/responsible-backup](https://github.com/MCPE-PC/responsible-backup)
 
 - 4월 19일에 저장소를 생성하였습니다.
+- 자동화 스케줄러와 함께 사용하기 좋은 실용적인 데이터 백업 소프트웨어를 설계하고 있습니다.
 
 ### ORCID 회원 가입
 
 - 4월 22일에 [ORCID](https://orcid.org/)에 처음 회원 가입하였습니다.
 - [0009-0006-3278-0429](https://orcid.org/0009-0006-3278-0429)
 
-### [hackclub/dinosaurs](https://github.com/hackclub/dinosaurs): Member
+### [sindresorhus/Actions](https://github.com/sindresorhus/Actions): Issue
+
+- 몇 주 전 macOS 커뮤니티에 진입하게 되고 Mac다운(Macish) 사용자 환경을 구성하고 싶었습니다.
+- 단축어(Shortcuts) 앱에서 임시 디렉토리 생성 동작(action)이 있기를 원하여 4월 23일에 [`#242 Action proposal: Create a temporary directory`](https://github.com/sindresorhus/Actions/issues/242)를 제출하였습니다.
+
+### [hackclub/dinosaurs](https://github.com/hackclub/dinosaurs): Member, Pull Request
 
 [![MCPE_PC_Jaehyeon_Dino](https://cdn.jsdelivr.net/gh/hackclub/dinosaurs@main/MCPE_PC_Jaehyeon_Dino.png)](https://github.com/hackclub/dinosaurs/blob/main/MCPE_PC_Jaehyeon_Dino.png)
 
@@ -386,7 +388,7 @@ include-before: |
 - [git-filter-repo](https://github.com/newren/git-filter-repo)를 이용해 이미 Git에 stage된 비공개 정보를 모두 제거했습니다.
 - 특별히 [`Signed-off-by`](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---signoff)를 추가하고 rebase했습니다.
 
-### [hackclub/blot](https://github.com/hackclub/blot): Member
+### [hackclub/blot](https://github.com/hackclub/blot): Member, Pull Request
 
 ![A teacup snapshot](assets/blot-snapshot.png)
 
@@ -394,6 +396,7 @@ include-before: |
 - 실행할 때마다 다른 랜덤 컵을 그립니다.
 - [Scrapbook](https://scrapbook.hackclub.com/JaehyeonPark)에 기록하였습니다.
 - [이 Blot 링크](https://blot.hackclub.com/editor?src=https://raw.githubusercontent.com/hackclub/blot/main/art/Ateacup-MCPEPC/index.js)에서 코드를 실행해볼 수 있습니다.
+- Blot의 배송이 수 개월 지연되고 있습니다.
 
 ### [MCPE-PC/dino.icu](https://github.com/MCPE-PC/dino.icu)
 
@@ -403,7 +406,7 @@ include-before: |
 - [Programming Quotes API](https://programming-quotesapi.vercel.app/)의 인용구를 인용합니다.
 - 페이지 어디든 [개인 홈페이지](https://www.mcpepc.com)로 링크됩니다.
 
-### [hackclub/dns](https://github.com/hackclub/dns): Member
+### [hackclub/dns](https://github.com/hackclub/dns): Member, Pull Request
 
 - [Arcade](https://hack.af/arcade) 활동으로 [MCPE-PC/dino.icu](https://github.com/MCPE-PC/dino.icu)에 그와 잘 어울리는 [pc.dino.icu](https://pc.dino.icu/) 도메인 이름을 설정하고 싶었습니다.
 - 7월 3일에 [#1208 Adding pc.dino.icu](https://github.com/hackclub/dns/pull/1208)를 제출하였습니다.
@@ -442,11 +445,29 @@ include-before: |
 - 2022년 7월 1일에 보고서를 완성하였습니다.
 - 동영상 파일 크기를 20MB 이하로 압축하기 위해 특별히 인코딩했습니다. 압축 후 크기는 19MB입니다.
 
+### [is-a-dev/register](https://github.com/is-a-dev/register): Issue, Pull Request
+
+- 새롭고 간결한 [pc.is-a.dev](https://pc.is-a.dev/) 도메인에 사용하려 한 [ForwardDomain.net](https://forwarddomain.net/) 호환성을 요청하기 위해 7월 17일에 [`#14952 [Feedback/suggestion] add _ to extraSupportedNames`](https://github.com/is-a-dev/register/issues/14952)을 제출하였습니다.
+- 대체 서비스를 추천받고 Close되었습니다.
+- [redirect.pizza](https://redirect.pizza/)를 사용한 DNS 구성을 배포하기 위해 7월 19일에 [`#14985 Register pc.is-a.dev`](https://github.com/is-a-dev/register/pull/14985)을 제출하여 Merge되었습니다.
+
+### [RsaCtfTool/RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)
+
+- 최신 버전에서 빌드가 불가능한 문제를 해결하고 비효율적인 빌드를 개선하기 위해 7월 29일에 [`#485 Bump gmpy2 version and use python docker base image`](https://github.com/RsaCtfTool/RsaCtfTool/pull/485)을 제출하여 정말 빠르게 Merge되었습니다.
+
+### [MCPE-PC/freecodecamp-stock-price-checker](https://github.com/MCPE-PC/freecodecamp-stock-price-checker): Fork
+
+- [Stock Price Checker Information Security Project](https://www.freecodecamp.org/learn/information-security/information-security-projects/stock-price-checker)를 수행하기 위해 7월 29일에 [freeCodeCamp/boilerplate-project-stockchecker](https://github.com/freeCodeCamp/boilerplate-project-stockchecker)를 Fork하였습니다.
+
+### [MCPE-PC/kr-software-engineer](https://github.com/MCPE-PC/kr-software-engineer)
+
+- 본 모듈을 통해 [소프트웨어기술자 경력관리시스템](https://career.sw.or.kr/)의 사용을 프로그램화할 수 있게 함으로써 별도 정보시스템과 연계하여 경력 데이터베이스를 자동으로 업데이트&middot;경력 항목별 부가 설명 내용을 작성&middot;필요한 형태의 Markdown 문서(&lt;소프트웨어기술자 경력 설명서&gt;) 생성 자동화&middot;구술로 부가 설명할 필요 최소화&middot;언제든지 &lt;소프트웨어기술자 경력증명서&gt;를 소지함을 스스로 인증하면 해당 버전의 증명서에 대한 설명서와 최신 버전의 증명서와 최신 버전의 문서를 자유롭게 열람하고 다운로드하는 기능 제공&middot;더욱 편리한 삶을 영위하도록 하기 위해 8월 17일에 저장소를 생성하였습니다.
+
 \pagebreak
 
 ## 더보기
 
-- 공적 증빙 가능한 소프트웨어 분야 이력은 &lt;소프트웨어기술자 경력증명서&gt;^[해당 파일은 사용 목적을 기재하여 요청해주시면 보내드리겠습니다.]와 &lt;소프트웨어기술자 경력 설명서&gt;^[해당 파일은 사용 목적을 기재하여 요청해주시면 보내드리겠습니다.]를 확인해주세요.
+- 공적 증빙 가능한 소프트웨어 분야 이력은 &lt;소프트웨어기술자 경력증명서&gt;^[해당 파일은 사용 목적을 기재하여 요청해주시면 보내드리겠습니다.]와 &lt;소프트웨어기술자 경력 설명서&gt;^[해당 파일은 사용 목적을 기재하여 요청해주시면 보내드리겠습니다. 조만간 증명서 소지 시 갱신 및 설명서 다운로드를 자동화하겠습니다.]를 확인해주세요.
 - 소프트웨어를 포함한 전체 분야 이력과 개인 프로젝트, 봉사활동 등에 관한 전반적 사항은 LinkedIn([`in/jaehyeon`](https://www.linkedin.com/in/jaehyeon/))을 확인해주세요. 다만, 전체 공개되지 않는 소프트웨어 분야 기술경력은 위 &lt;소프트웨어기술자 경력증명서&gt;에 있습니다.
 - 최신 일상생활은 Instagram([`@mcpe_pc_`](https://www.instagram.com/mcpe_pc_/))을 확인해주세요.
 - 공개된 신상과 실시간 디스코드 상태, 추가적인 안내 사항은 [GitHub 프로필 README](https://github.com/MCPE-PC/MCPE-PC/blob/main/README.md) 내용을 확인해주세요. (HTML과 PDF로도 제공된답니다!)
@@ -474,4 +495,9 @@ include-before: |
 ### 1.1.2 (2024-07-16)
 
 - 이미지 파일 경로 변경
+- 내용 업데이트
+
+### 1.2.0 (2024-08-28)
+
+- 안내문 일부 수정
 - 내용 업데이트

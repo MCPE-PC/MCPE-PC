@@ -1,6 +1,6 @@
 # Jaehyeon (Max) Park (MCPE_PC)
 
-![:wave: Hello, world! #YetAnotherOpenSourcerer](assets/banner.png)
+![:wave: Hello, world! #YetAnotherOpenSourcerer](assets/banner.svg)
 
 [![GitHub branch check runs](https://img.shields.io/github/check-runs/MCPE-PC/MCPE-PC/main?style=for-the-badge)](https://github-profile-artifact.mcpepc.com/)
 
