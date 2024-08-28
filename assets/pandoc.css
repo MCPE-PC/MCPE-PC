@@ -1,6 +1,10 @@
 @import url("https://cdn.jsdelivr.net/npm/normalize.css@8");
 @import url("https://cdn.jsdelivr.net/npm/github-markdown-css@5");
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Gothic:wght@400;700;800&family=family=Noto+Color+Emoji&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Gothic:wght@400;700;800&family=Noto+Color+Emoji&display=swap");
+
+html {
+  print-color-adjust: exact;
+}
 
 .markdown-body {
   font-family: "Nanum Gothic", "Noto Color Emoji", sans-serif;
@@ -33,5 +37,6 @@ div.markdown-body {
 }
 
 @page {
-  margin: 20mm;
+  size: A4;
+  margin: 10mm;
 }
