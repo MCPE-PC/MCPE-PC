@@ -25,18 +25,16 @@ jobs:
         uses: wtfjoke/setup-tectonic@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.x
-      - name: Install WeasyPrint
-        run: pip install weasyprint
       - name: Inject assets
         run: cp -r assets _site
       - name: Build README.md to HTML
         run: pandoc -s -f gfm -o _site/README.html --css assets/pandoc.css --include-before-body assets/body-before.txt --include-after-body assets/body-after.txt README.md
       - name: Build README.html to PDF
-        run: weasyprint _site/README.html _site/README.pdf
+        uses: fifsky/html-to-pdf-action@master
+        with:
+          htmlFile: _site/README.html
+          outputFile: _site/README.pdf
+          pdfOptions: '{"format":"A4"}'
       - name: Build PORTFOLIO-OSS-KO.md to PDF
         run: pandoc -s --pdf-engine tectonic -o _site/PORTFOLIO-OSS-KO.pdf PORTFOLIO-OSS-KO.md
       - name: Inject LICENSE
