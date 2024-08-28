@@ -25,10 +25,16 @@ jobs:
         uses: wtfjoke/setup-tectonic@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Setup Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+      - name: Install Monolith
+        run: cargo install monolith
       - name: Inject assets
         run: cp -r assets _site
       - name: Build README.md to HTML
-        run: pandoc -s -f gfm -o _site/README.html --css assets/pandoc.css --include-before-body assets/body-before.txt --include-after-body assets/body-after.txt README.md
+        run: pandoc -s -f gfm -o README.html --css assets/pandoc.css --include-before-body assets/body-before.txt --include-after-body assets/body-after.txt README.md
+      - name: Bundle README.md
+        run: monolith -o _site/README.html README.html
       - name: Build README.html to PDF
         uses: fifsky/html-to-pdf-action@master
         with:
