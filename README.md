@@ -43,7 +43,7 @@
 ![Short nickname: PC](https://img.shields.io/badge/short_nickname-PC-3498db?style=for-the-badge)
 ![Full nickname: MCPE_PC](https://img.shields.io/badge/full_nickname-MCPE__PC-3498db?style=for-the-badge)
 
-![I love open source and](https://img.shields.io/badge/I_%E2%9D%A4%EF%B8%8F_open--source_and-ffffff?style=for-the-badge)
+![I love open source and](https://img.shields.io/badge/I_%E2%99%A5_open--source_and-ffffff?style=for-the-badge)
 [![GitHub followers](https://img.shields.io/github/followers/MCPE-PC?style=for-the-badge&logo=github&labelColor=000000)](https://github.com/MCPE-PC?tab=followers)
 ![GitHub stars](https://img.shields.io/github/stars/MCPE-PC?style=for-the-badge&logo=github&labelColor=000000)
 ![GitHub joined on July 13, 2016](https://img.shields.io/badge/joined_on-July_13%2C_2016-blue?style=for-the-badge&logo=github&labelColor=000000)
@@ -82,12 +82,12 @@
 
 ### My websites
 
-| Domain                                                                                                               | HTTP Strict Transport Security (HSTS) preloaded                                                                                           |
-| -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| [![www.mcpepc.com](https://img.shields.io/badge/www.mcpepc.com-3498db?style=for-the-badge)](https://www.mcpepc.com/) | [![HSTS preloaded](https://img.shields.io/hsts/preload/mcpepc.com?style=for-the-badge)](https://hstspreload.org/?domain=mcpepc.com)       |
-| [![mcpepc.me](https://img.shields.io/badge/mcpepc.me-3498db?style=for-the-badge)](https://mcpepc.me/)                | [![HSTS preloaded](https://img.shields.io/hsts/preload/mcpepc.me?style=for-the-badge)](https://hstspreload.org/?domain=mcpepc.me)         |
-| [![mcpe.computer](https://img.shields.io/badge/mcpe.computer-3498db?style=for-the-badge)](https://mcpe.computer/)    | [![HSTS preloaded](https://img.shields.io/hsts/preload/mcpe.computer?style=for-the-badge)](https://hstspreload.org/?domain=mcpe.computer) |
-| [![mcpepc.kr](https://img.shields.io/badge/mcpepc.kr-3498db?style=for-the-badge)](https://mcpepc.kr/)                | [![HSTS preloaded](https://img.shields.io/hsts/preload/mcpepc.kr?style=for-the-badge)](https://hstspreload.org/?domain=mcpepc.kr)         |
+| Domain                                                                                                               | HTTP Strict Transport Security (HSTS) preloaded                                                                                               |
+| -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![www.mcpepc.com](https://img.shields.io/badge/www.mcpepc.com-3498db?style=for-the-badge)](https://www.mcpepc.com/) | [![HSTS preloaded](https://img.shields.io/hsts/preload/mcpepc.com.svg?style=for-the-badge)](https://hstspreload.org/?domain=mcpepc.com)       |
+| [![mcpepc.me](https://img.shields.io/badge/mcpepc.me-3498db?style=for-the-badge)](https://mcpepc.me/)                | [![HSTS preloaded](https://img.shields.io/hsts/preload/mcpepc.me.svg?style=for-the-badge)](https://hstspreload.org/?domain=mcpepc.me)         |
+| [![mcpe.computer](https://img.shields.io/badge/mcpe.computer-3498db?style=for-the-badge)](https://mcpe.computer/)    | [![HSTS preloaded](https://img.shields.io/hsts/preload/mcpe.computer.svg?style=for-the-badge)](https://hstspreload.org/?domain=mcpe.computer) |
+| [![mcpepc.kr](https://img.shields.io/badge/mcpepc.kr-3498db?style=for-the-badge)](https://mcpepc.kr/)                | [![HSTS preloaded](https://img.shields.io/hsts/preload/mcpepc.kr.svg?style=for-the-badge)](https://hstspreload.org/?domain=mcpepc.kr)         |
 
 ### My email addresses where you can reach out to me
 
