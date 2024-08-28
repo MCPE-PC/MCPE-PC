@@ -29,6 +29,8 @@ jobs:
         uses: dtolnay/rust-toolchain@stable
       - name: Install Monolith
         run: cargo install monolith
+      - name: Cache Rust files
+        uses: Swatinem/rust-cache@v2
       - name: Inject assets
         run: cp -r assets _site
       - name: Build README.md to HTML
@@ -40,7 +42,7 @@ jobs:
         with:
           htmlFile: _site/README-offline.html
           outputFile: _site/README.pdf
-          pdfOptions: '{"format":"A4"}'
+          pdfOptions: '{"printBackground":true}'
       - name: Build PORTFOLIO-OSS-KO.md to PDF
         run: pandoc -s --pdf-engine tectonic -o _site/PORTFOLIO-OSS-KO.pdf PORTFOLIO-OSS-KO.md
       - name: Inject LICENSE
