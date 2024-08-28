@@ -32,13 +32,13 @@ jobs:
       - name: Inject assets
         run: cp -r assets _site
       - name: Build README.md to HTML
-        run: pandoc -s -f gfm -o README.html --css assets/pandoc.css --include-before-body assets/body-before.txt --include-after-body assets/body-after.txt README.md
-      - name: Bundle README.md
-        run: monolith -o _site/README.html README.html
+        run: pandoc -s -f gfm -o _site/README.html --css assets/pandoc.css --include-before-body assets/body-before.txt --include-after-body assets/body-after.txt README.md
+      - name: Bundle README.html for offline
+        run: monolith -o _site/README-offline.html _site/README.html
       - name: Build README.html to PDF
         uses: fifsky/html-to-pdf-action@master
         with:
-          htmlFile: _site/README.html
+          htmlFile: _site/README-offline.html
           outputFile: _site/README.pdf
           pdfOptions: '{"format":"A4"}'
       - name: Build PORTFOLIO-OSS-KO.md to PDF
