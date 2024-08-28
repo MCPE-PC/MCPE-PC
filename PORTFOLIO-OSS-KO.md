@@ -19,7 +19,7 @@ header-includes: |
   \fancyhead[R]{오픈 소스 소프트웨어 Portfolio}
   \fancyfoot[C]{© 2024 박재현 (CC BY 4.0)}
   \fancyfoot[LE,RO]{\thepage}
-  \fancyfoot[LO,RE]{v1.2.0 (2024-08-28)}
+  \fancyfoot[LO,RE]{v1.2.1 (2024-08-28)}
 include-before: |
   \pagebreak
 ---
@@ -36,7 +36,8 @@ include-before: |
   - 직접 소유한 개인 저장소가 아니라면 기여의 종류를 표시합니다.
   - 예외적으로, 오픈 소스 커뮤니티에 회원 가입하는 것과 같은 milestone을 다룰 수 있습니다.
 - 본 문서는 [Pandoc’s Markdown](https://pandoc.org/chunkedhtml-demo/8-pandocs-markdown.html)으로 작성되며 [markdownlint](https://github.com/DavidAnson/markdownlint)를 준수합니다. 정확한 결과를 확인하려면 [Pandoc](https://pandoc.org/)으로 [LaTeX](https://www.latex-project.org/)를 사용하여 빌드해야 합니다. 본 문서의 최신 버전 소스 코드는 [이 GitHub 링크](https://github.com/MCPE-PC/MCPE-PC/blob/main/PORTFOLIO-OSS-KO.md)에서 확인할 수 있습니다.
-- 본 문서의 공개 최신 버전은 [이 링크](https://github-profile-artifact.mcpepc.com/PORTFOLIO-OSS-KO.pdf)에서 다운로드할 수 있습니다.
+- 본 문서의 공개 최신 버전은 [이 링크](https://github-profile-artifact.mcpepc.com/PORTFOLIO-OSS-KO.pdf)^[[https://github-profile-artifact.mcpepc.com/PORTFOLIO-OSS-KO.pdf](https://github-profile-artifact.mcpepc.com/PORTFOLIO-OSS-KO.pdf)]에서 다운로드할 수 있습니다.
+- 같은 환경으로 직접 빌드하려면, [Pandoc](https://pandoc.org/)과 [Tectonic](https://tectonic-typesetting.github.io/)을 사용하세요.
 - 시간대는 달리 표기하지 않은 한 한국 표준시(Asia/Seoul, UTC+9)입니다.
 - 본 문서는 [CC BY 4.0](https://github.com/MCPE-PC/MCPE-PC/blob/main/LICENSE)으로 이용 허락됩니다.
 - 본 문서는 [Semantic Versioning](https://semver.org/)을 따릅니다.
@@ -69,7 +70,7 @@ include-before: |
 ### [MCPE-PC/previously-MCPE-PC.github.io](https://github.com/MCPE-PC/previously-MCPE-PC.github.io): 첫 저장소
 
 - GitHub에서 가입을 제외한 첫 활동입니다.
-- 2월 11일에 이 저장소를 생성하였습니다.
+- 2월 11일에 저장소를 생성하였습니다.
 - [Cayman 테마](https://github.com/pages-themes/cayman)를 기반으로 연습 성격의 [GitHub Pages](https://pages.github.com/)를 구성하였습니다.
 - 지금은 서비스가 종료된 issue.sh를 이용하였습니다.
 
@@ -254,7 +255,7 @@ include-before: |
 
 - 인터넷 커뮤니티에서 어떤 오픈 소스 소프트웨어를 개발할 지 진행한 투표에서 선정되어 11월 24일에 저장소를 생성하였습니다.
 - 컬쳐랜드상품권으로 [컬쳐랜드](https://www.cultureland.co.kr/) 컬쳐캐쉬를 충전하는 과정을 브라우저 자동화를 이용해 인터페이스화합니다.
-- 실제로는 법적 위험 등으로 인해 오픈 소스 공개하지 않았습니다.
+- 실제로는 법적 위험 등으로 인해 본 저장소에 오픈 소스 공개하지 않았습니다.
 
 \pagebreak
 
@@ -352,6 +353,8 @@ include-before: |
 - 오픈 소스로 남겨두었습니다.
 
 ### [MCPE-PC/2024-dimigo-1person-1project](https://github.com/MCPE-PC/2024-dimigo-1person-1project)
+
+[![2024학년도 1학기 1인1Project 자기계발계획서](https://cdn.jsdelivr.net/gh/MCPE-PC/2024-dimigo-1person-1project@main/image.png)](https://github.com/MCPE-PC/2024-dimigo-1person-1project/blob/main/%5B%EA%B2%8C%EC%8B%9C%EC%9A%A9%5D%202024%ED%95%99%EB%85%84%EB%8F%84%201%ED%95%99%EA%B8%B0%201%E4%BA%BA1Project%20%EC%9E%90%EA%B8%B0%EA%B3%84%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9C.pdf)
 
 - `공업 일반` 과목 수행평가(1인1Project) 자료를 오픈 소스로 기록하기 위해 3월 22일에 저장소를 생성하였습니다.
 
@@ -463,6 +466,11 @@ include-before: |
 
 - 본 모듈을 통해 [소프트웨어기술자 경력관리시스템](https://career.sw.or.kr/)의 사용을 프로그램화할 수 있게 함으로써 별도 정보시스템과 연계하여 경력 데이터베이스를 자동으로 업데이트&middot;경력 항목별 부가 설명 내용을 작성&middot;필요한 형태의 Markdown 문서(&lt;소프트웨어기술자 경력 설명서&gt;) 생성 자동화&middot;구술로 부가 설명할 필요 최소화&middot;언제든지 &lt;소프트웨어기술자 경력증명서&gt;를 소지함을 스스로 인증하면 해당 버전의 증명서에 대한 설명서와 최신 버전의 증명서와 최신 버전의 문서를 자유롭게 열람하고 다운로드하는 기능 제공&middot;더욱 편리한 삶을 영위하도록 하기 위해 8월 17일에 저장소를 생성하였습니다.
 
+### [MCPE-PC/2021-dimigo-special-self-recommendation](https://github.com/MCPE-PC/2021-dimigo-special-self-recommendation)
+
+- 2022학년도 한국디지털미디어고등학교 신입생 모집 진로적성특별전형(자기추천)에 제출한 자료 일부를 오픈 소스로 공개하기 위해 8월 28일에 저장소를 생성하였습니다.
+- ShareAlike 이용허락 조건 때문에 미리 보기 자료를 넣지 않습니다. 내용은 위 링크에서 확인해주세요.
+
 \pagebreak
 
 ## 더보기
@@ -498,6 +506,11 @@ include-before: |
 - 내용 업데이트
 
 ### 1.2.0 (2024-08-28)
+
+- 안내문 일부 수정
+- 내용 업데이트
+
+### 1.2.1 (2024-08-28)
 
 - 안내문 일부 수정
 - 내용 업데이트
