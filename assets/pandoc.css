@@ -31,3 +31,7 @@ div.markdown-body {
     display: none;
   }
 }
+
+@page {
+  margin: 20mm;
+}
