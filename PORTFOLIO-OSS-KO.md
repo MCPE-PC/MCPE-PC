@@ -19,7 +19,7 @@ header-includes: |
   \fancyhead[R]{오픈 소스 소프트웨어 Portfolio}
   \fancyfoot[C]{© 2024 박재현 (CC BY 4.0)}
   \fancyfoot[LE,RO]{\thepage}
-  \fancyfoot[LO,RE]{v1.2.1 (2024-08-28)}
+  \fancyfoot[LO,RE]{v1.2.2 (2024-09-11)}
 include-before: |
   \pagebreak
 ---
@@ -120,7 +120,7 @@ include-before: |
 
 ### [MCPE-PC/OreAboveEndStone](https://github.com/MCPE-PC/OreAboveEndStone)
 
-![OreAboveEndStone](https://cdn.jsdelivr.net/gh/MCPE-PC/OreAboveEndStone@master/favicon.png)
+![OreAboveEndStone](https://cdn.jsdelivr.net/gh/MCPE-PC/OreAboveEndStone@master/favicon.png)\
 
 - [MCFT-Server/MineSponge](https://github.com/MCFT-Server/MineSponge)로부터 영감을 받아 2월 11일에 저장소를 생성하였습니다.
 - [여기](https://poggit.pmmp.io/ci/MCPE-PC/OreAboveEndStone/~) Poggit에서 빌드됩니다.
@@ -278,7 +278,7 @@ include-before: |
 
 ### [MCPE-PC/MCPE-PC](https://github.com/MCPE-PC/MCPE-PC)
 
-![:wave: Hello, world! #YetAnotherOpenSourcerer](assets/banner.png)
+![:wave: Hello, world! #YetAnotherOpenSourcerer](assets/banner.png)\
 
 - [프로필 README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) 규칙을 충족하기 위해 12월 28일에 저장소를 생성하였습니다.
 - 프로필 README와 본 문서 등 오픈 소스 문서를 제공합니다.
@@ -393,7 +393,7 @@ include-before: |
 
 ### [hackclub/blot](https://github.com/hackclub/blot): Member, Pull Request
 
-![A teacup snapshot](assets/blot-snapshot.png)
+![A teacup snapshot](assets/blot-snapshot.png)\
 
 - [Arcade](https://hack.af/arcade) 활동으로 예술 생성 프로그램을 작성하고 [Blot](https://blot.hackclub.com/)에 기여하기 위해 6월 18일에 [#548 Ateacup-MCPEPC](https://github.com/hackclub/blot/pull/548)를 제출하여 Merge되었습니다.
 - 실행할 때마다 다른 랜덤 컵을 그립니다.
@@ -454,7 +454,7 @@ include-before: |
 - 대체 서비스를 추천받고 Close되었습니다.
 - [redirect.pizza](https://redirect.pizza/)를 사용한 DNS 구성을 배포하기 위해 7월 19일에 [`#14985 Register pc.is-a.dev`](https://github.com/is-a-dev/register/pull/14985)을 제출하여 Merge되었습니다.
 
-### [RsaCtfTool/RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)
+### [RsaCtfTool/RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool): Pull Request
 
 - 최신 버전에서 빌드가 불가능한 문제를 해결하고 비효율적인 빌드를 개선하기 위해 7월 29일에 [`#485 Bump gmpy2 version and use python docker base image`](https://github.com/RsaCtfTool/RsaCtfTool/pull/485)을 제출하여 정말 빠르게 Merge되었습니다.
 
@@ -513,4 +513,9 @@ include-before: |
 ### 1.2.1 (2024-08-28)
 
 - 안내문 일부 수정
+- 내용 업데이트
+
+### 1.2.2 (2024-09-11)
+
+- 이미지 서식 변경
 - 내용 업데이트
