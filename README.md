@@ -58,6 +58,12 @@
 [![woking for JaehyeonIT](https://img.shields.io/badge/working_for-JaehyeonIT-brightgreen?style=for-the-badge)](https://jaehyeon.it/)
 [![woking as freelancer](https://img.shields.io/badge/working_as-freelancer-brightgreen?style=for-the-badge)](https://jaehyeon.it/)
 
+### Further information
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-in%2Fjaehyeon-0a66c2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/jaehyeon/)
+[![ORCID: 0009-0006-3278-0429](https://img.shields.io/badge/ORCID-0009--0006--3278--0429-a5cd39?style=for-the-badge&logo=orcid)](https://orcid.org/0009-0006-3278-0429)
+[![National Researcher Identifier: 13389581](https://img.shields.io/badge/National_Researcher_Identifier-13389581-1f40aa?style=for-the-badge)](https://iris.go.kr/rndopen/openApi/nriNrscrNoSearch.do)
+
 ### Code styles I use
 
 [![XO code style](https://img.shields.io/badge/javascript%2Ftypescript-5ed9c7?style=for-the-badge&logo=xo&labelColor=gray)](https://github.com/xojs/xo)
@@ -114,7 +120,6 @@
 
 [![License](https://img.shields.io/github/license/MCPE-PC/MCPE-PC?style=for-the-badge)](https://github.com/MCPE-PC/MCPE-PC/blob/main/LICENSE)
 [![All commits signed](https://img.shields.io/badge/all_commits-signed-brightgreen?style=for-the-badge&logo=git)](https://docs.github.com/authentication/managing-commit-signature-verification/about-commit-signature-verification)
-[![Hits](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FMCPE-PC%2FMCPE-PC.json&style=for-the-badge&color=3498db)](https://hits.dwyl.com/MCPE-PC/MCPE-PC)
 [![Shields.io](https://img.shields.io/badge/Shields.io-for--the--badge-brightgreen?style=for-the-badge&logo=shields.io)](https://shields.io/)
 [![Web Accessible](https://img.shields.io/badge/web-accessible-brightgreen?style=for-the-badge)](https://www.w3.org/WAI/fundamentals/)
 [![YouTube subscribers](https://img.shields.io/youtube/channel/subscribers/UCCFZwrM6VCubrPrD0OI6WgQ?style=for-the-badge&logo=youtube&labelColor=ff0000&color=282828)](https://www.youtube.com/@MCPE_PC?sub_confirmation=1)
